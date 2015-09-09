@@ -5,7 +5,7 @@
         <div class="content">
             <div class="jumbotron text-center" style="background-color:white;">
                 <h1>Team Points</h1>
-                <p>Points pulled from Fantasy Sharks daily</p>
+                <p>Points updated from Fantasy Sharks twice daily</p>
             </div>
             <div class="row">
                 @foreach($teams as $teamName => $team)
