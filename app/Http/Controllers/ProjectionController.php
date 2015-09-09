@@ -131,9 +131,4 @@ class ProjectionController extends Controller
 
         return $teams;
     }
-
-    private function getProjections()
-    {
-        file_put_contents("projections.csv", fopen("http://www.fantasysharks.com/apps/bert/forecasts/projections.php?csv=1&Sort=&Segment=532&Position=99&scoring=2&League=-1&uid=4&uid2=&printable=", 'r'));
-    }
 }
