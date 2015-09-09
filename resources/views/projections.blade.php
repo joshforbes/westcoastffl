@@ -1,35 +1,40 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Fantasy Bowl: WestCoastFFL Projections</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    </head>
-    <body>
-        <nav class="navbar navbar-inverse">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand">West Coast FFL</a>
-                </div>
+@extends('master')
+
+@section('content')
+    <div class="container" style="margin-top: 20px;">
+        <div class="content">
+            <div class="jumbotron text-center" style="background-color:white;">
+                <h1>Projected Points</h1>
+                <p>Points pulled from Fantasy Sharks daily</p>
             </div>
-        </nav>
-        <div class="container" style="margin-top: 20px;">
-            <div class="content">
-                <div class="jumbotron">
-                    <h1>Projected Points</h1>
-                    <p>Points pulled from Fantasy Sharks daily</p>
-                </div>
-                <div class="row">
-                    @foreach($teams as $teamName => $team)
-                        <div class="team col-md-6" style="height: 300px;">
-                            <h3>{{ $teamName }}</h3>
+            <div class="row">
+                @foreach($teams as $teamName => $team)
+                    <div class="team col-md-4 col-md-offset-1" style="height: 450px;">
+                        <h4 class="text-center" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ $teamName }}</h4>
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th class="text-right">Projected Points</th>
+                            </tr>
+                            </thead>
+                            <tbody>
                             @foreach($team as $playerName => $points)
-                                {{ $playerName }} -  {{ is_numeric($points) ? $points : 0 }} <br>
+                                <tr>
+                                    <td>{{ $playerName }}</td>
+                                    <td class="text-right">{{ is_numeric($points) ? $points : 0 }}</td>
+                                </tr>
                             @endforeach
-                            <h4>Projected Total: {{ array_sum($team) }}</h4>
-                        </div>
-                    @endforeach
-                </div>
+                            <tr>
+                                <td><strong>Projected Points:</strong></td>
+                                <td class="text-right"><strong>{{ array_sum($team) }}</strong></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                @endforeach
             </div>
         </div>
-    </body>
-</html>
+    </div>
+@endsection
+

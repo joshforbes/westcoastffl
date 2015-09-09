@@ -33,7 +33,7 @@ class ProjectionController extends Controller
     {
         $client = new Client();
 
-        $teams = $this->getTeams($client);
+        $teams = $this->getStarters($client);
 
         $projections = $this->parseProjections($client);
 
@@ -44,12 +44,51 @@ class ProjectionController extends Controller
         ]);
     }
 
-    private function getTeams($client)
+    public function team()
+    {
+        $client = new Client();
+
+        $teams = $this->getFullTeam($client);
+
+        $projections = $this->parseProjections($client);
+
+        $teams = $this->combineProjectionsWithTeams($projections, $teams);
+
+        return view('team', [
+            'teams' => $teams
+        ]);
+    }
+
+    private function getStarters($client)
     {
         $teams = [];
         $teamName = '';
 
         $crawler = $client->request('GET', 'https://fantasybowl.com/2015/?LeagueID=28588&Page=LineupCard');
+
+        $nodes = $crawler->filter('td.tinh1, td.tinyc')->each(function ($node) {
+            return $node->text();
+        });
+
+        foreach ($nodes as $node) {
+            if (preg_match('#[0-9]#', $node)) {
+                $teamName = $node;
+            } elseif (strlen($node) < 3) {
+                continue;
+            } else {
+                $teams[$teamName][$node] = $node;
+            }
+        }
+
+        return $teams;
+    }
+
+    private function getFullTeam($client)
+    {
+        $teams = [];
+        $teamName = '';
+
+        $crawler = $client->request('GET', 'https://fantasybowl.com/2015/?LeagueID=28588&Page=RosterCard');
 
         $nodes = $crawler->filter('td.tinh1, td.tinyc')->each(function ($node) {
             return $node->text();

@@ -11,4 +11,6 @@
 |
 */
 
-Route::get('/', ['as' => 'index', 'uses' => 'ProjectionController@index']);
+Route::get('/',         ['as' => 'index',   'uses' => 'ProjectionController@index']);
+Route::get('/team',     ['as' => 'team',    'uses' => 'ProjectionController@team']);
+
