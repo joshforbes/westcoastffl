@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d998258-b082-4f4f-a09f-b6afb2d5f7d6" name="Default" comment="" />
+    <ignored path="westcoastffl.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="westcoastffl" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="projections.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/projections.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5">
+              <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectionController.php" />
+        <option value="$PROJECT_DIR$/resources/views/projections.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="westcoastffl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="westcoastffl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="westcoastffl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="westcoastffl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="westcoastffl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="westcoastffl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="westcoastffl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="westcoastffl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="westcoastffl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="westcoastffl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="westcoastffl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="westcoastffl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="westcoastffl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="westcoastffl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="westcoastffl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d998258-b082-4f4f-a09f-b6afb2d5f7d6" name="Default" comment="" />
+      <created>1441758515608</created>
+      <option name="number" value="Default" />
+      <updated>1441758515608</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.055555556">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <marker date="1441759037000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/dom-crawler/Crawler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.1944444">
+          <caret line="666" column="20" selection-start-line="666" selection-start-column="20" selection-end-line="666" selection-end-column="20" />
+          <folding>
+            <marker date="1436458060000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Crawler eases navigation of a list of \DOMElement objects. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" @var string The current URI ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" @var string The default namespace prefix to be used with XPath and CSS expressions ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" @var array A map of manually registered namespaces ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" @var string The base href value ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Constructor. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Removes all the nodes. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Adds a node to the current list of nodes. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Adds HTML/XML content. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Adds an HTML content to the list of nodes. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Adds an XML content to the list of nodes. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Adds a \DOMDocument to the list of nodes. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Adds a \DOMNodeList to the list of nodes. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Adds an array of \DOMNode instances to the list of nodes. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Adds a \DOMNode instance to the list of nodes. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Returns a node given its position in the node list. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Calls an anonymous function on each node of the list. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Slices the list of nodes by $offset and $length. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Reduces the list of nodes by calling an anonymous function. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Returns the first node of the current selection. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Returns the last node of the current selection. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Returns the siblings nodes of the current selection. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Returns the next siblings nodes of the current selection. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Returns the previous sibling nodes of the current selection. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Returns the parents nodes of the current selection. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Returns the children nodes of the current selection. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Returns the attribute value of the first node of the list. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Returns the node name of the first node of the list. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Returns the node value of the first node of the list. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Returns the first node of the list as HTML. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Extracts information from the list of nodes. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Filters the list of nodes with an XPath expression. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Filters the list of nodes with a CSS selector. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Selects links by name or alt value for clickable images. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Selects a button by name or alt value for images. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Returns a Link object for the first node in the list. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Returns an array of Link objects for the nodes in the list. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Returns a Form object for the first node in the list. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Overloads a default namespace prefix to be used with XPath and CSS expressions. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" @param string $prefix ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Converts string for XPath expressions. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Filters the list of nodes with an XPath expression. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" Make the XPath relative to the current context. ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" @param int $position ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" @param \DOMElement $node ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" @param \DOMDocument $document ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" @param \DOMXPath $domxpath ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder=" @param $xpath ..." />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436458060000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/projections.csv">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.510907">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1111112">
+          <caret line="134" column="35" selection-start-line="134" selection-start-column="35" selection-end-line="134" selection-end-column="35" />
+          <folding>
+            <marker date="1441768105000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441768105000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/projections.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5">
+          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
