@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/',         ['as' => 'index',   'uses' => 'ProjectionController@index']);
-Route::get('/team',     ['as' => 'team',    'uses' => 'ProjectionController@team']);
+Route::get('/',             ['as' => 'index',           'uses' => 'ProjectionController@index']);
+Route::get('/team',         ['as' => 'team',            'uses' => 'ProjectionController@team']);
+Route::get('/free-agent',   ['as' => 'free-agent',     'uses' => 'ProjectionController@freeAgent']);
 

@@ -21,7 +21,7 @@
                     <ul class="nav navbar-nav">
                         <li class="{{ isActiveRoute('index') }}"><a href="{{ route('index') }}">Projected</a></li>
                         <li class="{{ isActiveRoute('team') }}"><a href="{{ route('team') }}">Team</a></li>
-                        {{--<li class="{{ isActiveRoute('free-agent') }}"><a href="#contact">Free Agent</a></li>--}}
+                        <li class="{{ isActiveRoute('free-agent') }}"><a href="{{ route('free-agent') }}">Free Agent</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>

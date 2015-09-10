@@ -25,7 +25,7 @@ class ProjectionController extends Controller
     ];
 
     /**
-     * Display a listing of the resource.
+     * Display a listing of the starters.
      *
      * @return Response
      */
@@ -44,6 +44,11 @@ class ProjectionController extends Controller
         ]);
     }
 
+    /**
+     * Displays the full team view
+     *
+     * @return \Illuminate\View\View
+     */
     public function team()
     {
         $client = new Client();
@@ -59,6 +64,32 @@ class ProjectionController extends Controller
         ]);
     }
 
+    /**
+     * Displays players that are not rostered
+     *
+     * @return \Illuminate\View\View
+     */
+    public function freeAgent()
+    {
+        $client = new Client();
+
+        $teams = $this->getFullTeam($client);
+
+        $projections = $this->parseProjections($client);
+
+        $freeAgents = $this->removeRosteredFromProjections($projections, $teams);
+
+        return view('free-agents', [
+            'freeAgents' => $freeAgents
+        ]);
+    }
+
+    /**
+     * Parses the starters from the given url
+     *
+     * @param $client
+     * @return array
+     */
     private function getStarters($client)
     {
         $teams = [];
@@ -83,6 +114,12 @@ class ProjectionController extends Controller
         return $teams;
     }
 
+    /**
+     * Parses the full team from the given url
+     *
+     * @param $client
+     * @return array
+     */
     private function getFullTeam($client)
     {
         $teams = [];
@@ -107,6 +144,11 @@ class ProjectionController extends Controller
         return $teams;
     }
 
+    /**
+     * Parses the projections from the given csv
+     *
+     * @return array
+     */
     private function parseProjections()
     {
         $filename = base_path() . '/public/projections.csv';
@@ -149,19 +191,27 @@ class ProjectionController extends Controller
 
             $projections[] = [
                 'name' => ltrim(implode(' ', array_reverse($playerName))),
-                'points' => $player['Pts']
+                'points' => $player['Pts'],
+                'position' => $player['Position']
             ];
         }
 
         return $projections;
     }
 
+    /**
+     * Combine the projections with the provided teams
+     *
+     * @param $projections
+     * @param $teams
+     * @return mixed
+     */
     private function combineProjectionsWithTeams($projections, $teams)
     {
         foreach ($teams as $teamName => $team) {
             foreach ($team as $player) {
                 foreach ($projections as $projection) {
-                    if ($player == $projection['name']) {
+                    if (strtolower($player) == strtolower($projection['name'])) {
                         $teams[$teamName][$player] = is_numeric($projection['points']) ? $projection['points']  : 0;
                     }
                 }
@@ -169,5 +219,27 @@ class ProjectionController extends Controller
         }
 
         return $teams;
+    }
+
+    /**
+     * Remove the players on the provided teams from the projections
+     *
+     * @param $projections
+     * @param $teams
+     * @return mixed
+     */
+    private function removeRosteredFromProjections($projections, $teams)
+    {
+        foreach ($teams as $teamName => $team) {
+            foreach ($team as $player) {
+                foreach ($projections as $key => $projection) {
+                    if (strtolower($player) == strtolower($projection['name'])) {
+                        unset($projections[$key]);
+                    }
+                }
+            }
+        }
+
+        return $projections;
     }
 }
