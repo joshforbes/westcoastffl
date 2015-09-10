@@ -24,6 +24,6 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->call('App\Services\GetProjectedPoints@run')->hourly();
+        $schedule->call('App\Services\GetProjectedPoints@run')->everyMinute();
     }
 }

@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProjectionController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectionController.php">
+      <file leaf-file-name="Kernel.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6111111">
-              <caret line="243" column="83" selection-start-line="243" selection-start-column="83" selection-end-line="243" selection-end-column="83" />
+            <state vertical-scroll-proportion="0.6944444">
+              <caret line="26" column="75" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -41,14 +41,14 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/resources/views/projections.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/team.blade.php" />
-        <option value="$PROJECT_DIR$/app/Console/Kernel.php" />
         <option value="$PROJECT_DIR$/storage/logs/laravel.log" />
         <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/app/Services/GetProjectedPoints.php" />
         <option value="$PROJECT_DIR$/resources/views/free-agents.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/master.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectionController.php" />
+        <option value="$PROJECT_DIR$/app/Services/GetProjectedPoints.php" />
+        <option value="$PROJECT_DIR$/app/Console/Kernel.php" />
       </list>
     </option>
   </component>
@@ -668,33 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6388889">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <marker date="1441842631000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1441842631000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1441842631000" expanded="true" signature="-1:-1" placeholder=" The Artisan commands provided by your application. ..." />
-            <marker date="1441842631000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1441842631000" expanded="true" signature="-1:-1" placeholder=" Define the application's command schedule. ..." />
-            <marker date="1441842631000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/GetProjectedPoints.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3888889">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1441847045000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1441847045000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1441847045000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/team.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22222222">
@@ -771,8 +744,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6111111">
+        <state vertical-scroll-proportion="5.9722223">
           <caret line="243" column="83" selection-start-line="243" selection-start-column="83" selection-end-line="243" selection-end-column="83" />
+          <folding>
+            <marker date="1441852190000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder=" Display a listing of the starters. ..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder=" Displays the full team view ..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder=" Displays players that are not rostered ..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder=" Parses the starters from the given url ..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder=" Parses the full team from the given url ..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder=" Parses the projections from the given csv ..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder=" Combine the projections with the provided teams ..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder=" Remove the players on the provided teams from the projections ..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441852190000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/GetProjectedPoints.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30555555">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <marker date="1441928631000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441928631000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441928631000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6944444">
+          <caret line="26" column="75" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
           <folding />
         </state>
       </provider>
