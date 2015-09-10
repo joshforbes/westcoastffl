@@ -24,8 +24,8 @@
       <file leaf-file-name="ProjectionController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectionController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3611111">
-              <caret line="224" column="68" selection-start-line="224" selection-start-column="68" selection-end-line="224" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.6111111">
+              <caret line="243" column="83" selection-start-line="243" selection-start-column="83" selection-end-line="243" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -771,8 +771,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3611111">
-          <caret line="224" column="68" selection-start-line="224" selection-start-column="68" selection-end-line="224" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.6111111">
+          <caret line="243" column="83" selection-start-line="243" selection-start-column="83" selection-end-line="243" selection-end-column="83" />
           <folding />
         </state>
       </provider>

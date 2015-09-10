@@ -24,6 +24,10 @@ class ProjectionController extends Controller
         'Titans', 'Redskins'
     ];
 
+    private $defensePositions = [
+        'LB', 'DB', 'DL'
+    ];
+
     /**
      * Display a listing of the starters.
      *
@@ -234,6 +238,10 @@ class ProjectionController extends Controller
             foreach ($team as $player) {
                 foreach ($projections as $key => $projection) {
                     if (strtolower($player) == strtolower($projection['name'])) {
+                        unset($projections[$key]);
+                    }
+
+                    if (in_array($projection['position'], $this->defensePositions)) {
                         unset($projections[$key]);
                     }
                 }
