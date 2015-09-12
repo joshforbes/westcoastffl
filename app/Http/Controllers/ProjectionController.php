@@ -104,7 +104,7 @@ class ProjectionController extends Controller
             return !isset($item['points']);
         });
 
-        $players = $players->sortBy('salary')->reverse();
+        $players = $players->sortBy('PPS')->reverse();
 
         return view('dfs', [
             'players' => $players
@@ -298,6 +298,7 @@ class ProjectionController extends Controller
             foreach ($projections as $projection) {
                 if (str_contains(strtolower($salary['name']), strtolower($projection['name']))) {
                     $salary['points'] = is_numeric($projection['points']) ? $projection['points']  : 0;
+                    $salary['PPS'] = is_numeric($projection['points']) ? $projection['points'] / $salary['salary']  : 0;
                 }
             }
         }

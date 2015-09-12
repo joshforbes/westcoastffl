@@ -14,8 +14,9 @@
                         <tr>
                             <th>Position</th>
                             <th>Name</th>
-                            <th>Salary</th>
+                            <th class="text-right">Salary</th>
                             <th class="text-right">Projected Points</th>
+                            <th class="text-right">Points Per Dollar</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -23,8 +24,9 @@
                             <tr>
                                 <td>{{ $player['position'] }}</td>
                                 <td>{{ $player['name'] }}</td>
-                                <td class="text-right">{{ is_numeric($player['salary']) ? $player['salary'] : 0 }}</td>
-                                <td class="text-right">{{ is_numeric($player['points']) ? $player['points'] : 0 }}</td>
+                                <td class="text-right">{{ $player['salary'] }}</td>
+                                <td class="text-right">{{ $player['points'] }}</td>
+                                <td class="text-right">{{ number_format($player['PPS'], 5) }}</td>
                             </tr>
                         @endforeach
                         </tbody>
