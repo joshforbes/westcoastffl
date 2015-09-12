@@ -89,6 +89,29 @@ class ProjectionController extends Controller
     }
 
     /**
+     * Displays the dfs salaries and projects
+     *
+     * @return \Illuminate\View\View
+     */
+    public function dfs()
+    {
+        $projections = $this->parseProjections();
+        $salaries = $this->parseSalaries();
+
+        $players = collect($this->combineProjectionsWithSalaries($projections, $salaries));
+
+        $players = $players->reject(function ($item) {
+            return !isset($item['points']);
+        });
+
+        $players = $players->sortBy('salary')->reverse();
+
+        return view('dfs', [
+            'players' => $players
+        ]);
+    }
+
+    /**
      * Parses the starters from the given url
      *
      * @param $client
@@ -204,6 +227,43 @@ class ProjectionController extends Controller
     }
 
     /**
+     * Parses the projections from the given csv
+     *
+     * @return array
+     */
+    private function parseSalaries()
+    {
+        $filename = base_path() . '/public/salaries.csv';
+        $file = fopen($filename, 'r');
+
+        $players = [];
+        $header = null;
+
+        while ($row = fgetcsv($file))
+        {
+            if ($header === null)
+            {
+                $header = $row;
+                continue;
+            }
+            $players[] = array_combine($header, $row);
+        }
+
+        $salaries = [];
+
+        foreach ($players as $player) {
+
+            $salaries[] = [
+                'name' => $player['Name'],
+                'salary' => $player['Salary'],
+                'position' => $player['Position']
+            ];
+        }
+
+        return $salaries;
+    }
+
+    /**
      * Combine the projections with the provided teams
      *
      * @param $projections
@@ -223,6 +283,26 @@ class ProjectionController extends Controller
         }
 
         return $teams;
+    }
+
+    /**
+     * Combine the projections with the provided teams
+     *
+     * @param $projections
+     * @param $salaries
+     * @return mixed
+     */
+    private function combineProjectionsWithSalaries($projections, $salaries)
+    {
+        foreach ($salaries as &$salary) {
+            foreach ($projections as $projection) {
+                if (str_contains(strtolower($salary['name']), strtolower($projection['name']))) {
+                    $salary['points'] = is_numeric($projection['points']) ? $projection['points']  : 0;
+                }
+            }
+        }
+
+        return $salaries;
     }
 
     /**
