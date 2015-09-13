@@ -298,7 +298,7 @@ class ProjectionController extends Controller
             foreach ($projections as $projection) {
                 if (str_contains(strtolower($salary['name']), strtolower($projection['name']))) {
                     $salary['points'] = is_numeric($projection['points']) ? $projection['points']  : 0;
-                    $salary['PPS'] = is_numeric($projection['points']) ? $projection['points'] / $salary['salary']  : 0;
+                    $salary['PPS'] = is_numeric($projection['points']) ?  $salary['salary'] / $projection['points']  : 0;
                 }
             }
         }

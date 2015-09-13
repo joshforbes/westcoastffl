@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dfs.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/dfs.blade.php">
+      <file leaf-file-name="ProjectionController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectionController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5">
-              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.3888889">
+              <caret line="300" column="115" selection-start-line="300" selection-start-column="115" selection-end-line="300" selection-end-column="115" />
               <folding />
             </state>
           </provider>
@@ -48,8 +48,8 @@
         <option value="$PROJECT_DIR$/app/Console/Kernel.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/master.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectionController.php" />
         <option value="$PROJECT_DIR$/resources/views/dfs.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectionController.php" />
       </list>
     </option>
   </component>
@@ -810,92 +810,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5277778">
-          <caret line="106" column="40" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="40" />
-          <folding>
-            <marker date="1442061287000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder=" Display a listing of the starters. ..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder=" Displays the full team view ..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder=" Displays players that are not rostered ..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder=" Displays the dfs salaries and projects ..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder=" Parses the starters from the given url ..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder=" Parses the full team from the given url ..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder=" Parses the projections from the given csv ..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder=" Parses the projections from the given csv ..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder=" Combine the projections with the provided teams ..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder=" Combine the projections with the provided teams ..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder=" Remove the players on the provided teams from the projections ..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442061287000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/dfs.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5">
           <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+          <folding>
+            <marker date="1442062635000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442062635000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1442062635000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442062635000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442062635000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1442062635000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442062635000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442062635000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442062635000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442062635000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442062635000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442062635000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442062635000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3888889">
+          <caret line="300" column="115" selection-start-line="300" selection-start-column="115" selection-end-line="300" selection-end-column="115" />
           <folding />
         </state>
       </provider>
