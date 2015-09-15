@@ -21,13 +21,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="team.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/team.blade.php">
+      <file leaf-file-name="salaries.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/salaries.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22222222">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -629,28 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/free-agents.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19444445">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6111111">
@@ -698,8 +679,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22222222">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/free-agents.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19444445">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/salaries.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>
