@@ -21,16 +21,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="salaries.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/salaries.csv">
+      <file leaf-file-name="team.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/team.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.19444445">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -49,6 +46,7 @@
         <option value="$PROJECT_DIR$/resources/views/master.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectionController.php" />
         <option value="$PROJECT_DIR$/resources/views/dfs.blade.php" />
+        <option value="$PROJECT_DIR$/public/salaries.csv" />
         <option value="$PROJECT_DIR$/app/Services/GetProjectedPoints.php" />
         <option value="$PROJECT_DIR$/resources/views/free-agents.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/projections.blade.php" />
@@ -99,6 +97,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -320,7 +319,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,13 +384,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -411,25 +409,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/salaries.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/dfs.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
-          <folding>
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -520,27 +514,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25">
           <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
-          <folding>
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442149718000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/salaries.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5555556">
+        <state vertical-scroll-proportion="3.6388888">
           <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
           <folding>
             <marker date="1442149717000" expanded="false" signature="-1:-1" placeholder="..." />
@@ -625,9 +615,31 @@
         <state vertical-scroll-proportion="0.30555555">
           <caret line="11" column="157" selection-start-line="11" selection-start-column="157" selection-end-line="11" selection-end-column="157" />
           <folding>
-            <marker date="1442285036000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442285036000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1442285036000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1443144479000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1443144479000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/free-agents.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19444445">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -655,81 +667,32 @@
         <state vertical-scroll-proportion="0.19444445">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/team.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22222222">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/free-agents.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19444445">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442285853000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/salaries.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
   </component>

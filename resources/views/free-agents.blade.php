@@ -5,7 +5,7 @@
         <div class="content">
             <div class="jumbotron text-center" style="background-color:white;">
                 <h1>Free Agents</h1>
-                <p>Week 2</p>
+                <p>Week 3</p>
             </div>
             <div class="row">
                 <div class="team col-md-6 col-md-offset-3">
