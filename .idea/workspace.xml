@@ -21,8 +21,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="team.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/team.blade.php">
+      <file leaf-file-name="free-agents.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/free-agents.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.19444445">
               <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
@@ -622,28 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/free-agents.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19444445">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443144513000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443144513000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6111111">
@@ -658,6 +636,30 @@
             <marker date="1442033795000" expanded="true" signature="-1:-1" placeholder="..." />
             <marker date="1442033795000" expanded="true" signature="-1:-1" placeholder="..." />
             <marker date="1442033795000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/team.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19444445">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443144513000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -687,7 +689,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/team.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/free-agents.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19444445">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
