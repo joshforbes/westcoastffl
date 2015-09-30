@@ -5,7 +5,7 @@
         <div class="content">
             <div class="jumbotron text-center" style="background-color:white;">
                 <h1>Projected Points</h1>
-                <p>Week 3</p>
+                <p>Week 4</p>
             </div>
             <div class="row">
                 @foreach($teams as $teamName => $team)
