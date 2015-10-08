@@ -5,7 +5,7 @@
         <div class="content">
             <div class="jumbotron text-center" style="background-color:white;">
                 <h1>Draft Kings</h1>
-                <p>Points updated from Fantasy Sharks twice daily</p>
+                <p>OUT OF DATE</p>
             </div>
             <div class="row">
                 <div class="team col-md-6 col-md-offset-3">
