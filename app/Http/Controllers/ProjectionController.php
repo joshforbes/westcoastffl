@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\ProjectionParser;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -10,23 +11,25 @@ use App\Http\Controllers\Controller;
 
 class ProjectionController extends Controller
 {
-    private $mascots = [
-        'Cardinals', 'Falcons', 'Ravens',
-        'Bills', 'Panthers', 'Bears',
-        'Bengals', 'Browns', 'Cowboys',
-        'Broncos', 'Lions', 'Packers',
-        'Texans', 'Colts', 'Jaguars',
-        'Chiefs', 'Dolphins', 'Vikings',
-        'Patriots', 'Saints', 'Giants',
-        'Jets', 'Raiders', 'Eagles',
-        'Steelers', 'Chargers', '49ers',
-        'Seahawks', 'Rams', 'Buccaneers',
-        'Titans', 'Redskins'
-    ];
-
     private $defensePositions = [
         'LB', 'DB', 'DL'
     ];
+
+    /**
+     * @var
+     */
+    private $projectionParser;
+
+    /**
+     * ProjectionController constructor.
+     *
+     * @param ProjectionParser $projectionParser
+     */
+    public function __construct(ProjectionParser $projectionParser)
+    {
+
+        $this->projectionParser = $projectionParser;
+    }
 
     /**
      * Display a listing of the starters.
@@ -39,7 +42,7 @@ class ProjectionController extends Controller
 
         $teams = $this->getStarters($client);
 
-        $projections = $this->parseProjections($client);
+        $projections = $this->projectionParser->parse();
 
         $teams = $this->combineProjectionsWithTeams($projections, $teams);
 
@@ -59,7 +62,7 @@ class ProjectionController extends Controller
 
         $teams = $this->getFullTeam($client);
 
-        $projections = $this->parseProjections($client);
+        $projections = $this->projectionParser->parse();
 
         $teams = $this->combineProjectionsWithTeams($projections, $teams);
 
@@ -79,7 +82,7 @@ class ProjectionController extends Controller
 
         $teams = $this->getFullTeam($client);
 
-        $projections = $this->parseProjections($client);
+        $projections = $this->projectionParser->parse();
 
         $freeAgents = $this->removeRosteredFromProjections($projections, $teams);
 
@@ -169,61 +172,6 @@ class ProjectionController extends Controller
         }
 
         return $teams;
-    }
-
-    /**
-     * Parses the projections from the given csv
-     *
-     * @return array
-     */
-    private function parseProjections()
-    {
-        $filename = base_path() . '/public/projections.csv';
-        $file = fopen($filename, 'r');
-
-        $players = [];
-        $header = null;
-
-        while ($row = fgetcsv($file))
-        {
-            if ($header === null)
-            {
-                $header = $row;
-                continue;
-            }
-            if (count($row) !== 16) {
-                continue;
-            }
-            $players[] = array_combine($header, $row);
-        }
-
-        $projections = [];
-
-        foreach ($players as $player) {
-            $playerName = explode(',', $player['Player']);
-
-            if ($playerName[0] == 'Jets') {
-                $playerName[1] = 'NY Jets';
-            }
-
-            if ($playerName[0] == 'Giants') {
-                $playerName[1] = 'NY Giants';
-            }
-
-            foreach ($this->mascots as $mascot) {
-                if ($mascot == $playerName[0]) {
-                    $playerName[0] = 'D';
-                }
-            }
-
-            $projections[] = [
-                'name' => ltrim(implode(' ', array_reverse($playerName))),
-                'points' => $player['Pts'],
-                'position' => $player['Position']
-            ];
-        }
-
-        return $projections;
     }
 
     /**
